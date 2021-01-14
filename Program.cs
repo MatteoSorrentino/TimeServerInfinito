@@ -23,8 +23,6 @@ namespace TimeServer
 
             while (true)
             {
-
-
                 try
                 {
                     Socket client = listenerSocket.Accept();
@@ -96,7 +94,6 @@ namespace TimeServer
                 Console.WriteLine("Connessione del client");
 
             }
-            
         }
     }
 }
